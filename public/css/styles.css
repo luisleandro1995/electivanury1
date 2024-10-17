@@ -1,0 +1,50 @@
+/* public/css/app.css */
+
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor */
+.container {
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla */
+.table {
+    background-color: white;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+/* Estilos para los botones */
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* Otros estilos que puedas necesitar */
