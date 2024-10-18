@@ -9,15 +9,15 @@ class AddColumnsToEstudiantesTable extends Migration
     public function up()
     {
         Schema::table('estudiantes', function (Blueprint $table) {
-            $table->string('nombre'); // Agrega la columna nombre
-            $table->string('email')->unique(); // Agrega la columna email
+            $table->string('nombre'); 
+            $table->string('email')->unique(); 
         });
     }
 
     public function down()
     {
         Schema::table('estudiantes', function (Blueprint $table) {
-            $table->dropColumn(['nombre', 'email']); // Elimina las columnas si se revierte la migración
+            $table->dropColumn(['nombre', 'email']); 
         });
     }
 }

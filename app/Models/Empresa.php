@@ -9,5 +9,5 @@ class Empresa extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nombre', 'nit']; // Asegúrate de que solo incluyas campos válidos
+    protected $fillable = ['nombre', 'nit']; 
 }

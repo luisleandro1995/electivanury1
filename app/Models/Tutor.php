@@ -9,5 +9,5 @@ class Tutor extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nombre', 'email']; // Agrega los campos según tu tabla
+    protected $fillable = ['nombre', 'email'];
 }
